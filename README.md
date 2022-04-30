@@ -2,7 +2,7 @@
 
 git clone https://github.com/DoofisS/Test-task-person-database
 
-## Install dependencies
+## Move to the directory of the project & install dependencies
 
 ### `npm install`
 
