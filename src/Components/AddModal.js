@@ -102,8 +102,9 @@ const AddModal = (props) => {
         </DatePicker>
         <Select
           id="select-1"
-          defaultValue="A1"
-          labelText="Region"
+          defaultValue={user.department}
+          value={user.department}
+          labelText="Department"
           onChange={(text) =>
             setUser({ ...user, department: text.target.value })
           }
