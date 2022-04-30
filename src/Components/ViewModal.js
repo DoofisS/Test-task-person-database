@@ -17,7 +17,7 @@ const ViewModal = (props) => {
   });
   useEffect(() => {
     if (props.activeItem) {
-      setUser(props.data.find((item) => item.id == props.activeItem));
+      setUser(props.data.find((item) => item.id === props.activeItem));
     }
   }, [props.activeItem]);
 

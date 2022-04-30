@@ -40,7 +40,7 @@ const DeleteModal = (props) => {
           kind="danger"
           onClick={() => {
             props.setNewData(
-              props.newData.filter((element) => element.id != props.activeItem)
+              props.newData.filter((element) => element.id !== props.activeItem)
             );
             fetch(`http://localhost:3001/rows/${props.activeItem}`, {
               method: "DELETE",

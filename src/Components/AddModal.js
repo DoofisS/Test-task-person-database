@@ -22,7 +22,7 @@ const AddModal = (props) => {
   });
   useEffect(() => {
     if (props.activeItem) {
-      setUser(props.data.find((item) => item.id == props.activeItem));
+      setUser(props.data.find((item) => item.id === props.activeItem));
       return;
     }
     setUser({ name: "", email: "", birth: "", department: "A1" });
