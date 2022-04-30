@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "id": "b",
+      "name": "Sharp Savage",
+      "email": "qwezxc@mail.com",
+      "birth": "21/10/2021",
+      "department": "B2"
+    },
+    {
+      "id": "c",
+      "name": "Candice Harris",
+      "email": "qwezxc@mail.com",
+      "birth": "21/10/2021",
+      "department": "C1"
+    },
+    {
+      "id": "d",
+      "name": "Vlad Tkachenko",
+      "email": "qwezxc@mail.com",
+      "birth": "21/10/2021",
+      "department": "B1"
+    },
+    {
+      "name": "Vlad",
+      "email": "qwe",
+      "birth": "03/31/2022",
+      "department": "C3",
+      "id": "_JTwX-9"
+    },
+    {
+      "name": "Natasha",
+      "email": "aasd",
+      "birth": "04/07/2022",
+      "department": "A1",
+      "id": "7QP8UPE"
+    }
+  ]
+}
